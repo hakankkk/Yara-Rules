@@ -14,6 +14,7 @@ rule FindMaliciousExe {
       hash1 = "-"
     strings:
       $a = "DLL Injection"
+      $b = "Injecting payload"
     condition
-      uint16(0) == 0x5a4d and filesize < 300KB and filesize > 10MB and $a
+      uint16(0) == 0x5a4d and filesize < 300KB and filesize > 10MB and 1 of them
     }
