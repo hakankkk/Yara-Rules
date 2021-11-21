@@ -17,6 +17,7 @@ rule FindMaliciousExe {
       $b = "Injecting payload"
       $c = "Keylogger Installed"
       $d = "Failed to gather information on system processes!"
+      $e = "Run cmd error"
     condition:
       ( uint16(0) == 0x5a4d and filesize < 300KB and filesize > 10MB and 1 of them
       )
