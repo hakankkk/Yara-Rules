@@ -1,4 +1,4 @@
-rule TOR_Browser_Detection{
+rule TOR_Browser_Detection {
 
 meta:
       description = "Detects NoPowerShell hack tool"
