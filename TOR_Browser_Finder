@@ -1,0 +1,14 @@
+rule TOR_Browser_Detection{
+
+meta:
+      description = "Detects NoPowerShell hack tool"
+      author = "Hakan Kilic"
+
+strings:
+
+$a1 = "ls *\\TorBrowser\\Data\\Tor -Include torrc"
+$a2 = "ls *\\TorBrowser\\Data\\Tor -Include state"
+
+condition:
+      1 of them
+}
