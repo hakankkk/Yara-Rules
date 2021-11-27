@@ -1,8 +1,3 @@
-/*
-
-First trials for learning purposes
-
-*/
 
 rule FindMaliciousExe {
    meta:
