@@ -1,7 +1,7 @@
 rule TOR_Browser_Detection {
 
 meta:
-      description = "Detects NoPowerShell hack tool"
+      description = "Detects if any machine use TOR Browser"
       author = "Hakan Kilic"
       license = "Will be comming Hakankkk.lic, but now it is free to use"
       author = "Hakan Kilic"
