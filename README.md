@@ -14,7 +14,7 @@ Creating Threat Hunting Rules with YARA for Hunters
 <br />
 
 
-You can commit your experience in there
+# You can commit your experience in there
 <br />
 <br />
 <br />
