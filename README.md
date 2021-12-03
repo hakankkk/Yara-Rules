@@ -4,6 +4,8 @@ Threat Hunting &amp; Incident Response Yara Rules
 
 This page is for Hunting Evil in suspicious system(s)
 
+<br />
+<br />
 
 
 Creating Threat Hunting Rules with YARA for Hunters
