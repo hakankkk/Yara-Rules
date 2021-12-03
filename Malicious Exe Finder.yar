@@ -13,6 +13,8 @@ rule FindMaliciousExe {
       $c = "Keylogger Installed"
       $d = "Failed to gather information on system processes!"
       $e = "Run cmd error"
+      $f = "Cannot get PID of LSASS.EXE"
+      $g = "Cannot dump LSASS.EXE"
     condition:
       ( uint16(0) == 0x5a4d and filesize < 300KB and filesize > 10MB and 1 of them
       )
