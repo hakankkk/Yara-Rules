@@ -15,7 +15,7 @@ rule Log4J {
       $f = "jbdi:ldaps://...\\/a"
       $g = "log4j.logger.java"
       $h = "jndi:$\\{lower:l\\}$\\{lower:d\\}"
-    
+      $i = "logger.error(jindi)"
     condition:
        1 of them
 
