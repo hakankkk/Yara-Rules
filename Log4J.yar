@@ -13,6 +13,8 @@ rule Log4J {
       $d = "jndi:dns:"
       $e = "jbdi:ldap://...\\/a"
       $f = "jbdi:ldaps://...\\/a"
+      $g = "log4j.logger.java"
+      $h = "jndi:$\\{lower:l\\}$\\{lower:d\\}"
     
     condition:
        1 of them
